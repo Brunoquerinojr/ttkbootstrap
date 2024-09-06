@@ -4,6 +4,7 @@ from PIL import Image, ImageTk # Importa a biblioteca PIL para trabalhar com ima
 from functools import partial # Importa partial para facilitar a passagem de argumentos em callbacks
 import os, sys # Importa bibliotecas para interação com o sistema operacional
 import ttkbootstrap as ttk # Importa as variáveis e funções específicas do ttkbootstrap
+# Bruno Querino
 
 def resource_path(relative_path):
     """ Obtém o caminho absoluto para o recurso, funciona para dev e para o PyInstaller """
