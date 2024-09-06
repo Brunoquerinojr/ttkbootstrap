@@ -77,7 +77,7 @@ class Calculadora:
         self.frame_imagem.pack(fill="both", expand=True, pady=10) # Adiciona o frame ao layout da janela
 
         # Carregando e exibindo a imagem
-        imagem_path = resource_path("senai.png") # Obtém o caminho da imagem SENAI
+        imagem_path = resource_path("Senai.png") # Obtém o caminho da imagem SENAI
         imagem = Image.open(imagem_path) # Carrega a imagem usando PIL
         imagem = imagem.resize((300, 150), Image.LANCZOS) # Redimensiona a imagem mantendo a qualidade
         imagem = ImageTk.PhotoImage(imagem) # Converte a imagem para o formato compatível com tkinter
